@@ -89,10 +89,6 @@ const CourseModel = mongoose.model('courses', new Schema({
  * ImageModel
  */
 const Image = mongoose.model('Image', new Schema({
-    // caption: {
-    //     required: true,
-    //     type: String,
-    // },
     filename: {
         required: true,
         type: String,
@@ -350,9 +346,6 @@ app.post("/courses/add-course", async (req, res) => {
                     } else {
                         res.setHeader('Content-Type', 'application/json');
                         res.end(JSON.stringify(result.insertedId));
-                        // res.status(200).send({
-                        //     message: 'Added a new course.'
-                        // });
                     }
                 });
         } else {
