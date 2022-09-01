@@ -1,0 +1,8 @@
+{"_id":{"$oid":"62f2a040dca6c70eace5a00b"},"email":"admin@admin.com","admin":true,"password":"pass","name":"Vukasin Gligorijevic","linkedUsers":["student@student.com","testFive@student.com","testSix@student.com","a@sa.c","d@das.ds","da@das"]}
+{"_id":{"$oid":"62f2a17cdca6c70eace5a00e"},"email":"student@student.com","admin":false,"password":"password","name":"Jelena Jaksic","linkedUsers":["admin@admin.com"]}
+{"_id":{"$oid":"62fe01171b6eac337df237bf"},"email":"studentOne@student.com","password":"password","name":"Jelena Nikolic","admin":false}
+{"_id":{"$oid":"62fe0220dea7303342e31dfd"},"email":"adminOne@admin.com","password":"password","name":"Sanja Nikolica","admin":true,"linkedUsers":[]}
+{"_id":{"$oid":"62fe9735579aa09e2b39f271"},"email":"studentTwo@student.com","password":"password","name":"Bogdan Jaksic","admin":false,"linkedUsers":[""]}
+{"_id":{"$oid":"630264dce74cd8e5a3d61812"},"email":"testFour@student.com","password":"DktaIrOwRX","name":"Test Four","admin":false,"linkedUsers":[null]}
+{"_id":{"$oid":"63026ef5aa5cebcd1fb68dad"},"email":"testFive@student.com","password":"tInbbgI2Rl","name":"Test Studnet","admin":false,"linkedUsers":["admin@admin.com"]}
+{"_id":{"$oid":"63027264d31ad1450d3eb502"},"email":"testSix@student.com","password":"BrGGMoEFC5","name":"Test Studnet","admin":false,"linkedUsers":["admin@admin.com"]}
