@@ -136,7 +136,6 @@ app.post('/image', upload.single('file'), (req, res, next) => {
                 }
 
                 let newImage = new Image({
-                    // caption: req.body.caption,
                     filename: req.body.filename,
                     fileId: req.file.id,
                 });
